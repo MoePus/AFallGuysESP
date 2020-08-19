@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="spritefo.bin" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{e8ba418b-7f36-439d-972f-e80f6f6b48b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{9f04df6d-7333-489f-b5b8-13f340c36bfe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FMath.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteType.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RemoteType.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="FMath.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalUtil.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+</Project>
